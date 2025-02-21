@@ -1,0 +1,58 @@
+## 0. Basics of HTTP/HTTPS
+
+Difference between http and https:
+
+The both want to say the same thing but, the difference is on securisation. Https use TLS(SSL) to encrypt HTTP requests and responses. for
+this reason https is more secure
+
+
+Http structure:
+
+The user send the URL at the navigator. He translate the URL to a http request and send it to the the web server, the web server send the
+page data in back to the navigator, and navigator show it to the user.
+
+
+Exemple of http methods and status codes:
+
+
+Http methods:
+
+GET:
+Description: Retrieves data from the server.
+Use Case: Fetching a webpage or an API endpoint.
+
+POST:
+Description: Sends data to the server to create a resource.
+Use Case: Submitting a form on a website or sending data to a REST API.
+
+PUT:
+Description: Sends data to update an existing resource on the server.
+Use Case: Updating a user's profile information.
+
+DELETE:
+Description: Deletes a resource on the server.
+Use Case: Deleting a comment or a file from a server.
+
+
+Http status codes:
+
+100 Continue
+Description: The server is ready to receive the rest of the request.
+Use case: Sending large data in a POST request and waiting for the server to acknowledge before sending the body.
+
+2. 200 OK
+Description: The request was successful, and the server returned the requested data.
+Use case: Fetching a webpage or data from an API.
+
+3. 300 Multiple Choices
+Description: Multiple options are available for the requested resource.
+Use case: Choosing between different language versions of a page.
+
+4. 404 Not Found
+Description: The requested resource could not be found on the server.
+Use case: Accessing a non-existent page on a website.
+
+5. 500 Internal Server Error
+Description: The server encountered an unexpected error.
+Use case: A server-side bug or malfunction preventing the request from being processed.
+
